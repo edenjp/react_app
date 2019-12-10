@@ -1,10 +1,21 @@
-# react_hello_World
+![React Logo](public/logo192.png)# 
 
-Project created to try react technology
+React App
 
-install (node.js)[https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/] - ubuntu.
+Project created to try react technology.  
 
+### Tools
+
+# Requirements
+Before running the server, please install:
+
+install [node.js](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/) - ubuntu.
+
+In case you have problems rellates to the number of whatchers, run the command bellow:
+
+``` 
 $ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+``` 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
